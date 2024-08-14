@@ -25,7 +25,7 @@ export default function Navbar() {
                 </div>
 
                 <div className="flex space-x-4">
-                    <Link href="https://www.google.com" target="_blank">
+                    <Link href="https://goncalosousa.netlify.app" target="_blank">
                         <WebsiteIcon className="fill-color_sec transition-transform hover:scale-110" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/goncalojbsousa" target="_blank">

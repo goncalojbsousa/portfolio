@@ -3,11 +3,16 @@
 @tailwind utilities;
 
 :root {
-
+  --color_main: theme('colors.neutral.100');
+  --color_sec: theme('colors.black');
+  --color_sub: theme('colors.stone.500');
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-
+    --color_main: theme('colors.neutral.950');
+    --color_sec: theme('colors.white');
+    --color_sub: theme('colors.stone.400');
+    --color_hover: theme('colors.zinc.900');
   }
 }

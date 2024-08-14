@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <nav className="text-white ${...props}">
+        <nav className="text-color_sec mb-10">
             <div className="flex justify-center items-center p-4">
 
                 <div className="flex items-center mr-12">
@@ -26,13 +26,13 @@ export default function Navbar() {
 
                 <div className="flex space-x-4">
                     <Link href="https://www.google.com" target="_blank">
-                        <WebsiteIcon />
+                        <WebsiteIcon className="fill-color_sec transition-transform hover:scale-110" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/goncalojbsousa" target="_blank">
-                        <LinkedinIcon />
+                        <LinkedinIcon className="fill-color_sec transition-transform hover:scale-110" />
                     </Link>
                     <Link href="https://github.com/goncalojbsousa" target="_blank">
-                        <GithubIcon />
+                        <GithubIcon className="fill-color_sec transition-transform hover:scale-110" />
                     </Link>
 
                 </div>

@@ -29,7 +29,7 @@ export default function Projects() {
                     <div className="">
                         <h1 className="text-xl ">GESFaturação - Shopify APP</h1>
                         <p className="text-sm mb-2 text-color_sub">TypeScript - React - Remix - PostgreSQL - Prisma - Node.js - Express.js</p>
-                        <p className="text-base text-justify">This internship project consists of developing an application for Shopify, integrated with FTKode's GESFaturação API, which aims to automate and simplify invoicing processes for online stores. The app makes it possible to convert orders into invoices or receipts automatically, synchronize inventories between Shopify and GESFaturação, and send financial documents by email efficiently and automatically.</p>
+                        <p className="text-base text-justify">This internship project consists of developing an application for Shopify, integrated with FTKode&apos;s GESFaturação API, which aims to automate and simplify invoicing processes for online stores. The app makes it possible to convert orders into invoices or receipts automatically, synchronize inventories between Shopify and GESFaturação, and send financial documents by email efficiently and automatically.</p>
                     </div>
                     <div className="flex mt-2 space-x-2 text-color_sub">
                         Private project
